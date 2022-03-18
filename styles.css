@@ -1,0 +1,100 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif; */
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {font-size: 10px;}
+
+body {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    background-color: #1C1C1C;
+}
+
+/* Typography */
+.container {
+    width: 550px;
+    height: 550px;
+    padding: 5rem;
+    background-color: #1F2937;
+    position: absolute;
+    top: 64px;
+    left: 62px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: -0.025em;
+    margin: 5rem 0 1rem;
+    line-height: 1;
+}
+
+span {
+    color: #10B981;
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+button {
+    color: inherit;
+    background-color: #10B981;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+    border-radius: 7px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: .5px;
+    background-color: #2F3E53;
+    margin: 4rem 0;
+}
+
+/* Font awesome */
+.fa-bolt {
+    margin-right: 1rem;
+}
+
+.fa-ellipsis {
+    color: #202B3C;
+}
+
+/* Layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    background-color: #273549;
+    color: #55F991;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+
+
+

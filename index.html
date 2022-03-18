@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/327eb55a53.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+       <h1>Generate a <br> <span> random password</span></h1>
+       <p>Never use an insecure password again.</p>
+       <button onclick="generate()"><i class="fa-solid fa-bolt"></i>Generate passwords</button>
+       <hr> 
+        <form class="flex-container" action="#">
+            <div id="password1" class="col"><i class="fa-solid fa-ellipsis fa-3x"></i></div>
+            <div id="password2" class="col"><i class="fa-solid fa-ellipsis fa-3x"></i></div>
+        </form>
+        <form class="flex-container" action="#">
+            <div id="password3" class="col"><i class="fa-solid fa-ellipsis fa-3x"></i></div>
+            <div id="password4" class="col"><i class="fa-solid fa-ellipsis fa-3x"></i></div>
+        </form>
+   </div> 
+<script src="index.js"></script>
+</body>
+</html>
+
