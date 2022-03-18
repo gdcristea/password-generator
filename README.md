@@ -21,9 +21,9 @@ Requirements:
 
 ### Links
 
-- Solution URL: https://github.com/gdcristea/invoice-generator
+- Solution URL: https://github.com/gdcristea/password-generator
 
-- Live Site URL: https://gdcristea.github.io/invoice-generator/
+- Live Site URL: https://gdcristea.github.io/password-generator/
 
 ## Author
 
